@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="Contact.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="portfolio">
+  <nav>
+    <img src="./Img/nav_photo.png" class="logo"/>
+    <button class="mobile-menu-button" onclick="toggleMenu()">Menu</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <h1 class="left">Contact <span>Info</span></h1>
+    <div class="links" >
+      <a href="https://github.com/sambhandavale"><img src="./Img/Icons/github.png" class="logo"/></a>
+    <a href="https://www.instagram.com/sam_bhandavale/"><img src="./Img/Icons/instagram.png" class="logo"/></a>
+    <a href="https://www.figma.com/files/user/1274716326489914383?fuid=1274716326489914383"><img src="./Img/Icons/figma.png" class="logo"/></a>
+    <a href=""><img src="./Img/Icons/linkedin.png" class="logo"/></a>
+    </div>
+  </div>
+
+
+</div>
+<script>
+  function toggleMenu() {
+    var navUl = document.querySelector("nav ul");
+    navUl.classList.toggle("show");
+  }
+</script>
+
+</body>
+</html>

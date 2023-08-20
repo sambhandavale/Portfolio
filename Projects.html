@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="Projects.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="portfolio">
+  <nav>
+    <img src="./Img/nav_photo.png" class="logo"/>
+    <button class="mobile-menu-button" onclick="toggleMenu()">Menu</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+      <div class="content">
+          <h1 class="left">Marvel <span>Website</span></h1>
+          <p>
+         I've developed a user-friendly website for Marvel movie newcomers.
+         This platform, built using HTML, CSS, and JavaScript, guides users
+         through a step-by-step process to begin their Marvel movie journey.
+         The site provides a structured viewing order, interactive progress
+         tracking, and insightful trivia. With its intuitive design and engaging
+         content, this website ensures an enjoyable and informed experience for
+         those exploring the Marvel Cinematic Universe for the first time.
+         --><a href="https://sambhandavale.github.io/MarvelDir/" style="color:#279EFF">Link to the website</a><--
+          </p>
+          <div class="image">
+              <img src="./Img/Marvel_Website.png" class="img1">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="./Img/Marvel_Website2.png" class="img2">
+          </div>
+      </div>
+<script>
+  function toggleMenu() {
+    var navUl = document.querySelector("nav ul");
+    navUl.classList.toggle("show");
+  }
+</script>
+
+</body>
+</html>
