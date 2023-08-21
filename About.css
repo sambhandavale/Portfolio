@@ -104,7 +104,7 @@ nav ul li a:hover:after {
   color: #279EFF;
   text-shadow: 3px 1px black;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     nav ul {
     display: none;
     flex-direction: column;
